@@ -1,4 +1,9 @@
+"use client";
+
+import { useState } from "react";
+
 export default function Home() {
+  const [menuOpen, setMenuOpen] = useState(false);
   const galleryImages = [
     "/images/Img1.jpeg",
     "/images/Img2.jpeg",
@@ -14,34 +19,51 @@ export default function Home() {
     <main className="min-h-screen bg-black text-white">
 
       {/* Navbar */}
-      <nav className="flex justify-between items-center px-8 py-5 border-b border-red-700">
-        <h1 className="text-2xl font-bold text-red-600 whitespace-nowrap">
-  R BOUNCERS
-</h1>
+      <nav className="border-b border-red-700 bg-black">
 
-        <div className="flex flex-wrap justify-end gap-3 text-xs md:text-base items-center">
-  <a href="#about" className="hover:text-red-500 transition duration-300">
-    About
-  </a>
+  <div className="flex justify-between items-center px-4 md:px-8 py-5">
 
-  <a href="#services" className="hover:text-red-500 transition duration-300">
-    Services
-  </a>
+    <h1 className="text-xl md:text-2xl font-bold text-red-600">
+      R BOUNCERS
+    </h1>
 
-  <a href="#gallery" className="hover:text-red-500 transition duration-300">
-    Gallery
-  </a>
+    {/* Desktop Menu */}
+    <div className="hidden md:flex gap-6">
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#testimonials">Testimonials</a>
+      <a href="#contact">Contact</a>
+    </div>
 
-  <a href="#testimonials" className="hover:text-red-500 transition duration-300">
-    Testimonials
-  </a>
+    {/* Mobile Hamburger */}
+    <button
+      className="md:hidden text-white text-3xl"
+      onClick={() => setMenuOpen(!menuOpen)}
+    >
+      ☰
+    </button>
 
-  <a href="#contact" className="hover:text-red-500 transition duration-300">
-    Contact
-  </a>
-</div>
-      </nav>
+  </div>
 
+  {/* Mobile Dropdown */}
+  {menuOpen && (
+    <div className="md:hidden flex flex-col items-center gap-4 pb-4 bg-black">
+
+      <a href="#about" onClick={() => setMenuOpen(false)}>About</a>
+
+      <a href="#services" onClick={() => setMenuOpen(false)}>Services</a>
+
+      <a href="#gallery" onClick={() => setMenuOpen(false)}>Gallery</a>
+
+      <a href="#testimonials" onClick={() => setMenuOpen(false)}>Testimonials</a>
+
+      <a href="#contact" onClick={() => setMenuOpen(false)}>Contact</a>
+
+    </div>
+  )}
+
+</nav>
       {/* Hero Section */}
       {/* Hero Section */}
 <section className="relative min-h-[90vh] flex flex-col justify-center items-center text-center px-4 overflow-hidden">
@@ -621,7 +643,7 @@ export default function Home() {
 href="https://wa.me/918999131166"
 target="_blank"
 rel="noopener noreferrer"
-className="fixed bottom-20 right-5 md:bottom-6 md:right-6 bg-green-500 hover:bg-green-600 text-white w-16 h-16 rounded-full flex items-center justify-center text-3xl shadow-lg z-50 transition-all duration-300 hover:scale-110"
+className="fixed bottom-28 right-4 md:bottom-6 md:right-6 bg-green-500 hover:bg-green-600 text-white w-16 h-16 rounded-full flex items-center justify-center text-3xl shadow-lg z-50 transition-all duration-300 hover:scale-110"
 
 >
 
