@@ -19,7 +19,7 @@ export default function Home() {
     <main className="min-h-screen bg-black text-white">
 
       {/* Navbar */}
-      <nav className="border-b border-red-700 bg-black">
+      <nav className="sticky top-0 z-50 border-b border-red-700 bg-black">
 
   <div className="flex justify-between items-center px-4 md:px-8 py-5">
 
@@ -253,7 +253,7 @@ export default function Home() {
       {/* About Section */}
 <section
   id="about"
-  className="py-24 px-6 bg-black text-white"
+  className="scroll-mt-24 py-24 px-6 bg-black text-white"
 >
   <h2 className="text-5xl font-bold text-red-600 text-center mb-16">
     About Us
@@ -306,7 +306,7 @@ export default function Home() {
   </div>
 </section>
       {/* Services */}
-      <section id="services" className="py-20 px-6 bg-black text-white">
+      <section id="services" className="scroll-mt-24 py-20 px-6 bg-black text-white">
   <h2 className="text-5xl font-bold text-center text-red-600 mb-12">
     Our Security Services
   </h2>
@@ -362,8 +362,7 @@ export default function Home() {
       {/* Gallery Section */}
 <section
   id="gallery"
-  className="py-20 px-6 bg-black text-white"
->
+  className="scroll-mt-24 py-20 px-6 bg-black text-white">
   <h2 className="text-5xl font-bold text-center text-red-500 mb-4">
     Our Gallery
   </h2>
@@ -425,7 +424,7 @@ export default function Home() {
 
 {/* Testimonials Section */}
 
-<section id="testimonials" className="py-20 px-6 bg-black text-white">
+<section id="testimonials" className="scroll-mt-24 py-20 px-6 bg-black text-white">
 
   <h2 className="text-5xl font-bold text-center text-red-600 mb-4">
     Client Testimonials
@@ -610,7 +609,7 @@ export default function Home() {
 </section>
 
       {/* Contact */}
-<section id="contact" className="pt-10 pb-12 bg-black text-center text-white">
+<section id="contact" className="scroll-mt-24 pt-10 pb-12 bg-black text-center text-white">
   <h2 className="text-5xl font-bold text-red-600 mb-8">
     Contact Us
   </h2>
