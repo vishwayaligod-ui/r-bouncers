@@ -17,7 +17,7 @@ export default function Home() {
       <nav className="flex justify-between items-center px-8 py-5 border-b border-red-700">
         <h1 className="text-2xl font-bold text-red-600">R BOUNCERS</h1>
 
-        <div className="hidden md:flex gap-6 items-center">
+        <div className="flex flex-wrap justify-center gap-3 text-sm items-center">
   <a href="#about" className="hover:text-red-500 transition duration-300">
     About
   </a>
