@@ -16,10 +16,10 @@ export default function Home() {
   ];
 
   return (
-    <main className="min-h-screen bg-black text-white">
+    <main className="min-h-screen bg-black text-white pt-20">
 
       {/* Navbar */}
-      <nav className="sticky top-0 z-50 border-b border-red-700 bg-black">
+      <nav className="fixed top-0 left-0 w-full z-50 border-b border-red-700 bg-black">
 
   <div className="flex justify-between items-center px-4 md:px-8 py-5">
 
@@ -29,11 +29,14 @@ export default function Home() {
 
     {/* Desktop Menu */}
     <div className="hidden md:flex gap-6">
-      <a href="#about">About</a>
-      <a href="#services">Services</a>
-      <a href="#gallery">Gallery</a>
-      <a href="#testimonials">Testimonials</a>
-      <a href="#contact">Contact</a>
+      <a href="#about" className="hover:text-red-500 transition-colors duration-300">
+  About
+</a>
+      <a href="#services" className="hover:text-red-500 transition-colors duration-300">Services</a>
+
+      <a href="#gallery" className="hover:text-red-500 transition-colors duration-300">Gallery</a>
+      <a href="#testimonials" className="hover:text-red-500 transition-colors duration-300">Testimonials</a>
+      <a href="#contact" className="hover:text-red-500 transition-colors duration-300">Contact</a>
     </div>
 
     {/* Mobile Hamburger */}
