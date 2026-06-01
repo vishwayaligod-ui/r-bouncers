@@ -77,7 +77,7 @@ export default function Home() {
 </div>
 
 {/* Company Name */}
-<h1 className="text-5xl md:text-7xl font-extrabold text-red-500 tracking-wide drop-shadow-[0_0_30px_rgba(255,0,0,0.9)]">
+<h1 className="text-4xl md:text-7xl font-extrabold text-red-500 tracking-wide drop-shadow-[0_0_30px_rgba(255,0,0,0.9)]">
   R BOUNCERS
 </h1>
 
@@ -621,7 +621,7 @@ export default function Home() {
 href="https://wa.me/918999131166"
 target="_blank"
 rel="noopener noreferrer"
-className="fixed bottom-6 right-6 bg-green-500 hover:bg-green-600 text-white w-16 h-16 rounded-full flex items-center justify-center text-3xl shadow-lg z-50 transition-all duration-300 hover:scale-110"
+className="fixed bottom-20 right-5 md:bottom-6 md:right-6 bg-green-500 hover:bg-green-600 text-white w-16 h-16 rounded-full flex items-center justify-center text-3xl shadow-lg z-50 transition-all duration-300 hover:scale-110"
 
 >
 
