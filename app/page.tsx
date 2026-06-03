@@ -431,56 +431,51 @@ export default function Home() {
 <section id="videos" className="py-20 px-6 bg-black text-white">
 
   <h2 className="text-4xl md:text-5xl font-bold text-center text-red-500 mb-4">
-  Event Videos
-</h2>
+    Event Videos
+  </h2>
 
-<p className="text-center text-gray-300 mb-12">
-  Watch our professional security team managing weddings, VIP protection,
-  corporate events and large-scale gatherings across Maharashtra.
-</p>
-  <div className="grid grid-cols-1 md:grid-cols-2 gap-12 max-w-5xl mx-auto">
+  <p className="text-center text-gray-300 mb-12 max-w-4xl mx-auto">
+    Watch our professional security team managing weddings, VIP protection,
+    corporate events and large-scale gatherings across Maharashtra.
+  </p>
+
+  <div className="grid grid-cols-1 md:grid-cols-2 gap-10 max-w-5xl mx-auto">
 
     <video
-  controls
-  preload="metadata"
-  className="w-[90%] md:w-[70%] max-h-[450px] mx-auto rounded-xl border-2 border-red-600 hover:shadow-[0_0_25px_rgba(255,0,0,0.4)] transition-all duration-300"
->
+      controls
+      preload="metadata"
+      poster="/images/video1-poster.jpg"
+      className="w-[85%] md:w-[75%] h-[420px] object-cover mx-auto rounded-xl border-2 border-red-600 hover:scale-105 hover:shadow-[0_0_25px_rgba(255,0,0,0.5)] transition-all duration-300"
+    >
       <source src="/videos/video1.mp4" type="video/mp4" />
     </video>
 
     <video
-  controls
-  preload="metadata"
-className="w-[90%] md:w-[70%] max-h-[450px] mx-auto rounded-xl border-2 border-red-600 hover:shadow-[0_0_25px_rgba(255,0,0,0.4)] transition-all duration-300"
->
+      controls
+      preload="metadata"
+      poster="/images/video2-poster.jpg"
+      className="w-[85%] md:w-[75%] h-[420px] object-cover mx-auto rounded-xl border-2 border-red-600 hover:scale-105 hover:shadow-[0_0_25px_rgba(255,0,0,0.5)] transition-all duration-300"
+    >
       <source src="/videos/video2.mp4" type="video/mp4" />
     </video>
 
     <video
-  controls
-  preload="metadata"
-  className="w-[90%] md:w-[70%] max-h-[450px] mx-auto rounded-xl border-2 border-red-600 hover:shadow-[0_0_25px_rgba(255,0,0,0.4)] transition-all duration-300"
->
+      controls
+      preload="metadata"
+      poster="/images/video3-poster.jpg"
+      className="w-[85%] md:w-[75%] h-[420px] object-cover mx-auto rounded-xl border-2 border-red-600 hover:scale-105 hover:shadow-[0_0_25px_rgba(255,0,0,0.5)] transition-all duration-300"
+    >
       <source src="/videos/video3.mp4" type="video/mp4" />
     </video>
 
     <video
-  controls
-  preload="metadata"
-className="w-[90%] md:w-[70%] max-h-[450px] mx-auto rounded-xl border-2 border-red-600 hover:shadow-[0_0_25px_rgba(255,0,0,0.4)] transition-all duration-300"
->
+      controls
+      preload="metadata"
+      poster="/images/video4-poster.jpg"
+      className="w-[85%] md:w-[75%] h-[420px] object-cover mx-auto rounded-xl border-2 border-red-600 hover:scale-105 hover:shadow-[0_0_25px_rgba(255,0,0,0.5)] transition-all duration-300"
+    >
       <source src="/videos/video4.mp4" type="video/mp4" />
     </video>
-
-    <div className="md:col-span-2 flex justify-center">
-  <video
-  controls
-  preload="metadata"
-className="w-[90%] md:w-[70%] max-h-[450px] mx-auto rounded-xl border-2 border-red-600 hover:shadow-[0_0_25px_rgba(255,0,0,0.4)] transition-all duration-300"
->
-    <source src="/videos/video5.mp4" type="video/mp4" />
-  </video>
-</div>
 
   </div>
 
