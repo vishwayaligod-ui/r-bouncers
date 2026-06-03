@@ -676,7 +676,7 @@ export default function Home() {
   </p>
 
   <p className="text-gray-300 mb-8">
-    📍 Kolhapur, Maharashtra
+    📍 Pune, Maharashtra
   </p>
 <p className="text-gray-400 mb-4">
   Available 24/7 Across Maharashtra
