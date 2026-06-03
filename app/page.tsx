@@ -180,7 +180,7 @@ export default function Home() {
   </div>
 
   <div className="bg-slate-900/90 border border-red-600 rounded-2xl p-6 transition-all duration-300 hover:-translate-y-2 hover:scale-105 hover:shadow-[0_0_25px_rgba(255,0,0,0.5)]">
-    <h3 className="text-4xl font-bold text-red-500">👮 50+</h3>
+    <h3 className="text-4xl font-bold text-red-500">👮 500+</h3>
     <p className="text-gray-300 mt-2">Trained Bouncers</p>
   </div>
 
@@ -385,7 +385,7 @@ export default function Home() {
 </div>
 
 <div>
-  <h3 className="text-3xl font-bold text-red-500">50+</h3>
+  <h3 className="text-3xl font-bold text-red-500">500+</h3>
   <p className="text-gray-300">Security Staff</p>
 </div>
 
@@ -398,31 +398,78 @@ export default function Home() {
 
   <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 max-w-7xl mx-auto">
 
-<img src="/images/Img1.jpeg" alt="R Bouncers Security Event" className="rounded-xl border-2 border-red-600 w-full h-72 object-cover hover:scale-105 hover:shadow-[0_0_25px_rgba(255,0,0,0.5)] transition-all duration-300 cursor-pointer" />
+<img src="/images/Img1.jpeg" alt="R Bouncers Security Event" className="rounded-xl border-2 border-red-600 w-full h-96 object-cover object-top hover:scale-105 hover:shadow-[0_0_25px_rgba(255,0,0,0.5)] transition-all duration-300 cursor-pointer" />
 
-<img src="/images/Img2.jpeg" alt="R Bouncers Security Event" className="rounded-xl border-2 border-red-600 w-full h-72 object-cover hover:scale-105 hover:shadow-[0_0_25px_rgba(255,0,0,0.5)] transition-all duration-300 cursor-pointer" />
+<img src="/images/Img2.jpeg" alt="R Bouncers Security Event" className="rounded-xl border-2 border-red-600 w-full h-96 object-cover object-top hover:scale-105 hover:shadow-[0_0_25px_rgba(255,0,0,0.5)] transition-all duration-300 cursor-pointer" />
 
-<img src="/images/Img3.jpeg" alt="R Bouncers Security Event" className="rounded-xl border-2 border-red-600 w-full h-72 object-cover hover:scale-105 hover:shadow-[0_0_25px_rgba(255,0,0,0.5)] transition-all duration-300 cursor-pointer" />
+<img src="/images/Img3.jpeg" alt="R Bouncers Security Event" className="rounded-xl border-2 border-red-600 w-full h-96 object-cover object-top hover:scale-105 hover:shadow-[0_0_25px_rgba(255,0,0,0.5)] transition-all duration-300 cursor-pointer" />
 
-<img src="/images/Img4.jpeg" alt="R Bouncers Security Event" className="rounded-xl border-2 border-red-600 w-full h-72 object-cover hover:scale-105 hover:shadow-[0_0_25px_rgba(255,0,0,0.5)] transition-all duration-300 cursor-pointer" />
+<img src="/images/Img4.jpeg" alt="R Bouncers Security Event" className="rounded-xl border-2 border-red-600 w-full h-96 object-cover object-top hover:scale-105 hover:shadow-[0_0_25px_rgba(255,0,0,0.5)] transition-all duration-300 cursor-pointer" />
 
-<img src="/images/Img5.jpeg" alt="R Bouncers Security Event" className="rounded-xl border-2 border-red-600 w-full h-72 object-cover hover:scale-105 hover:shadow-[0_0_25px_rgba(255,0,0,0.5)] transition-all duration-300 cursor-pointer" />
+<img src="/images/Img5.jpeg" alt="R Bouncers Security Event" className="rounded-xl border-2 border-red-600 w-full h-96 object-cover object-top hover:scale-105 hover:shadow-[0_0_25px_rgba(255,0,0,0.5)] transition-all duration-300 cursor-pointer" />
 
-<img src="/images/Img6.jpeg" alt="R Bouncers Security Event" className="rounded-xl border-2 border-red-600 w-full h-72 object-cover hover:scale-105 hover:shadow-[0_0_25px_rgba(255,0,0,0.5)] transition-all duration-300 cursor-pointer" />
+<img src="/images/new1.jpeg" alt="R Bouncers Security Event" className="rounded-xl border-2 border-red-600 w-full h-96 object-cover object-top hover:scale-105 hover:shadow-[0_0_25px_rgba(255,0,0,0.5)] transition-all duration-300 cursor-pointer" />
 
-<img src="/images/Img7.jpeg" alt="R Bouncers Security Event" className="rounded-xl border-2 border-red-600 w-full h-72 object-cover hover:scale-105 hover:shadow-[0_0_25px_rgba(255,0,0,0.5)] transition-all duration-300 cursor-pointer" />
+<img src="/images/new2.jpeg" alt="R Bouncers Security Event" className="rounded-xl border-2 border-red-600 w-full h-96 object-cover object-top hover:scale-105 hover:shadow-[0_0_25px_rgba(255,0,0,0.5)] transition-all duration-300 cursor-pointer" />
 
-<img src="/images/Img8.jpeg" alt="R Bouncers Security Event" className="rounded-xl border-2 border-red-600 w-full h-72 object-cover hover:scale-105 hover:shadow-[0_0_25px_rgba(255,0,0,0.5)] transition-all duration-300 cursor-pointer" />
+<img src="/images/Img8.jpeg" alt="R Bouncers Security Event" className="rounded-xl border-2 border-red-600 w-full h-96 object-cover object-top hover:scale-105 hover:shadow-[0_0_25px_rgba(255,0,0,0.5)] transition-all duration-300 cursor-pointer" />
 
-<img src="/images/Img9.jpeg" alt="R Bouncers Security Event" className="rounded-xl border-2 border-red-600 w-full h-72 object-cover hover:scale-105 hover:shadow-[0_0_25px_rgba(255,0,0,0.5)] transition-all duration-300 cursor-pointer" />
+<img src="/images/Img9.jpeg" alt="R Bouncers Security Event" className="rounded-xl border-2 border-red-600 w-full h-96 object-cover object-top hover:scale-105 hover:shadow-[0_0_25px_rgba(255,0,0,0.5)] transition-all duration-300 cursor-pointer" />
 
-<img src="/images/Img10.jpeg" alt="R Bouncers Security Event" className="rounded-xl border-2 border-red-600 w-full h-72 object-cover hover:scale-105 hover:shadow-[0_0_25px_rgba(255,0,0,0.5)] transition-all duration-300 cursor-pointer" />
+<img src="/images/Img10.jpeg" alt="R Bouncers Security Event" className="rounded-xl border-2 border-red-600 w-full h-96 object-cover object-top hover:scale-105 hover:shadow-[0_0_25px_rgba(255,0,0,0.5)] transition-all duration-300 cursor-pointer" />
 
-<img src="/images/Img11.jpeg" alt="R Bouncers Security Event" className="rounded-xl border-2 border-red-600 w-full h-72 object-cover hover:scale-105 hover:shadow-[0_0_25px_rgba(255,0,0,0.5)] transition-all duration-300 cursor-pointer" />
+<img src="/images/Img11.jpeg" alt="R Bouncers Security Event" className="rounded-xl border-2 border-red-600 w-full h-96 object-cover object-top hover:scale-105 hover:shadow-[0_0_25px_rgba(255,0,0,0.5)] transition-all duration-300 cursor-pointer" />
 
-<img src="/images/Img12.jpeg" alt="R Bouncers Security Event" className="rounded-xl border-2 border-red-600 w-full h-72 object-cover hover:scale-105 hover:shadow-[0_0_25px_rgba(255,0,0,0.5)] transition-all duration-300 cursor-pointer" />
+<img src="/images/Img12.jpeg" alt="R Bouncers Security Event" className="rounded-xl border-2 border-red-600 w-full h-96 object-cover object-top hover:scale-105 hover:shadow-[0_0_25px_rgba(255,0,0,0.5)] transition-all duration-300 cursor-pointer" />
 
   </div>
+</section>
+
+<section id="videos" className="py-20 px-6 bg-black text-white">
+
+  <h2 className="text-5xl font-bold text-center text-red-500 mb-12">
+    Event Videos
+  </h2>
+
+  <div className="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
+
+    <video
+      controls
+      className="w-full rounded-xl border-2 border-red-600"
+    >
+      <source src="/videos/video1.mp4" type="video/mp4" />
+    </video>
+
+    <video
+      controls
+      className="w-full rounded-xl border-2 border-red-600"
+    >
+      <source src="/videos/video2.mp4" type="video/mp4" />
+    </video>
+
+    <video
+      controls
+      className="w-full rounded-xl border-2 border-red-600"
+    >
+      <source src="/videos/video3.mp4" type="video/mp4" />
+    </video>
+
+    <video
+      controls
+      className="w-full rounded-xl border-2 border-red-600"
+    >
+      <source src="/videos/video4.mp4" type="video/mp4" />
+    </video>
+
+    <video
+      controls
+      className="w-full rounded-xl border-2 border-red-600"
+    >
+      <source src="/videos/video5.mp4" type="video/mp4" />
+    </video>
+
+  </div>
+
 </section>
 
 {/* Testimonials Section */}
@@ -632,7 +679,7 @@ export default function Home() {
   Available 24/7 Across Maharashtra
 </p>
   <a
-    href="https://wa.me/918999131166"
+    href="https://wa.me/917020011441"
     target="_blank"
     className="bg-green-600 px-8 py-3 rounded-lg font-bold hover:bg-green-700 transition"
   >
@@ -642,7 +689,7 @@ export default function Home() {
 
 {/* Floating WhatsApp Button */}
 <a
-href="https://wa.me/918999131166"
+href="https://wa.me/917020011441"
 target="_blank"
 rel="noopener noreferrer"
 className="fixed bottom-28 right-4 md:bottom-6 md:right-6 bg-green-500 hover:bg-green-600 text-white w-16 h-16 rounded-full flex items-center justify-center text-3xl shadow-lg z-50 transition-all duration-300 hover:scale-110"
