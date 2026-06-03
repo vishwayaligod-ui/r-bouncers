@@ -430,46 +430,57 @@ export default function Home() {
 
 <section id="videos" className="py-20 px-6 bg-black text-white">
 
-  <h2 className="text-5xl font-bold text-center text-red-500 mb-12">
-    Event Videos
-  </h2>
+  <h2 className="text-4xl md:text-5xl font-bold text-center text-red-500 mb-4">
+  Event Videos
+</h2>
 
-  <div className="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
+<p className="text-center text-gray-300 mb-12">
+  Watch our professional security team managing weddings, VIP protection,
+  corporate events and large-scale gatherings across Maharashtra.
+</p>
+  <div className="grid md:grid-cols-2 gap-12 max-w-5xl mx-auto">
 
     <video
-      controls
-      className="w-full rounded-xl border-2 border-red-600"
-    >
+  controls
+  preload="metadata"
+  className="w-full md:w-[70%] max-h-[450px] mx-auto rounded-xl border-2 border-red-600 hover:shadow-[0_0_25px_rgba(255,0,0,0.4)] transition-all duration-300"
+>
       <source src="/videos/video1.mp4" type="video/mp4" />
     </video>
 
     <video
-      controls
-      className="w-full rounded-xl border-2 border-red-600"
-    >
+  controls
+  preload="metadata"
+  className="w-full md:w-[70%] max-h-[450px] mx-auto rounded-xl border-2 border-red-600 hover:shadow-[0_0_25px_rgba(255,0,0,0.4)] transition-all duration-300"
+>
       <source src="/videos/video2.mp4" type="video/mp4" />
     </video>
 
     <video
-      controls
-      className="w-full rounded-xl border-2 border-red-600"
-    >
+  controls
+  preload="metadata"
+  className="w-full md:w-[70%] max-h-[450px] mx-auto rounded-xl border-2 border-red-600 hover:shadow-[0_0_25px_rgba(255,0,0,0.4)] transition-all duration-300"
+>
       <source src="/videos/video3.mp4" type="video/mp4" />
     </video>
 
     <video
-      controls
-      className="w-full rounded-xl border-2 border-red-600"
-    >
+  controls
+  preload="metadata"
+  className="w-full md:w-[70%] max-h-[450px] mx-auto rounded-xl border-2 border-red-600 hover:shadow-[0_0_25px_rgba(255,0,0,0.4)] transition-all duration-300"
+>
       <source src="/videos/video4.mp4" type="video/mp4" />
     </video>
 
-    <video
-      controls
-      className="w-full rounded-xl border-2 border-red-600"
-    >
-      <source src="/videos/video5.mp4" type="video/mp4" />
-    </video>
+    <div className="md:col-span-2 flex justify-center">
+  <video
+  controls
+  preload="metadata"
+  className="w-full md:w-[70%] max-h-[450px] mx-auto rounded-xl border-2 border-red-600 hover:shadow-[0_0_25px_rgba(255,0,0,0.4)] transition-all duration-300"
+>
+    <source src="/videos/video5.mp4" type="video/mp4" />
+  </video>
+</div>
 
   </div>
 
