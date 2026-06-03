@@ -35,6 +35,7 @@ export default function Home() {
       <a href="#services" className="hover:text-red-500 transition-colors duration-300">Services</a>
 
       <a href="#gallery" className="hover:text-red-500 transition-colors duration-300">Gallery</a>
+      <a href="#videos" className="hover:text-red-500 transition-colors duration-300">Videos</a>
       <a href="#testimonials" className="hover:text-red-500 transition-colors duration-300">Testimonials</a>
       <a href="#contact" className="hover:text-red-500 transition-colors duration-300">Contact</a>
     </div>
@@ -58,6 +59,8 @@ export default function Home() {
       <a href="#services" onClick={() => setMenuOpen(false)}>Services</a>
 
       <a href="#gallery" onClick={() => setMenuOpen(false)}>Gallery</a>
+
+      <a href="#videos" onClick={() => setMenuOpen(false)}>Videos</a>
 
       <a href="#testimonials" onClick={() => setMenuOpen(false)}>Testimonials</a>
 
