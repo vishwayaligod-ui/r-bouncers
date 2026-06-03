@@ -438,12 +438,12 @@ export default function Home() {
   Watch our professional security team managing weddings, VIP protection,
   corporate events and large-scale gatherings across Maharashtra.
 </p>
-  <div className="grid md:grid-cols-2 gap-12 max-w-5xl mx-auto">
+  <div className="grid grid-cols-1 md:grid-cols-2 gap-12 max-w-5xl mx-auto">
 
     <video
   controls
   preload="metadata"
-  className="w-full md:w-[70%] max-h-[450px] mx-auto rounded-xl border-2 border-red-600 hover:shadow-[0_0_25px_rgba(255,0,0,0.4)] transition-all duration-300"
+  className="w-[90%] md:w-[70%] max-h-[450px] mx-auto rounded-xl border-2 border-red-600 hover:shadow-[0_0_25px_rgba(255,0,0,0.4)] transition-all duration-300"
 >
       <source src="/videos/video1.mp4" type="video/mp4" />
     </video>
@@ -451,7 +451,7 @@ export default function Home() {
     <video
   controls
   preload="metadata"
-  className="w-full md:w-[70%] max-h-[450px] mx-auto rounded-xl border-2 border-red-600 hover:shadow-[0_0_25px_rgba(255,0,0,0.4)] transition-all duration-300"
+className="w-[90%] md:w-[70%] max-h-[450px] mx-auto rounded-xl border-2 border-red-600 hover:shadow-[0_0_25px_rgba(255,0,0,0.4)] transition-all duration-300"
 >
       <source src="/videos/video2.mp4" type="video/mp4" />
     </video>
@@ -459,7 +459,7 @@ export default function Home() {
     <video
   controls
   preload="metadata"
-  className="w-full md:w-[70%] max-h-[450px] mx-auto rounded-xl border-2 border-red-600 hover:shadow-[0_0_25px_rgba(255,0,0,0.4)] transition-all duration-300"
+  className="w-[90%] md:w-[70%] max-h-[450px] mx-auto rounded-xl border-2 border-red-600 hover:shadow-[0_0_25px_rgba(255,0,0,0.4)] transition-all duration-300"
 >
       <source src="/videos/video3.mp4" type="video/mp4" />
     </video>
@@ -467,7 +467,7 @@ export default function Home() {
     <video
   controls
   preload="metadata"
-  className="w-full md:w-[70%] max-h-[450px] mx-auto rounded-xl border-2 border-red-600 hover:shadow-[0_0_25px_rgba(255,0,0,0.4)] transition-all duration-300"
+className="w-[90%] md:w-[70%] max-h-[450px] mx-auto rounded-xl border-2 border-red-600 hover:shadow-[0_0_25px_rgba(255,0,0,0.4)] transition-all duration-300"
 >
       <source src="/videos/video4.mp4" type="video/mp4" />
     </video>
@@ -476,7 +476,7 @@ export default function Home() {
   <video
   controls
   preload="metadata"
-  className="w-full md:w-[70%] max-h-[450px] mx-auto rounded-xl border-2 border-red-600 hover:shadow-[0_0_25px_rgba(255,0,0,0.4)] transition-all duration-300"
+className="w-[90%] md:w-[70%] max-h-[450px] mx-auto rounded-xl border-2 border-red-600 hover:shadow-[0_0_25px_rgba(255,0,0,0.4)] transition-all duration-300"
 >
     <source src="/videos/video5.mp4" type="video/mp4" />
   </video>
