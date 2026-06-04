@@ -114,7 +114,7 @@ export default function Home() {
 
 {/* Subtitle */}
 <h2 className="mt-6 text-3xl md:text-4xl font-bold text-white">
-  Professional Security Services
+  Professional Security Services in Pune
 </h2>
 
 {/* Description */}
@@ -126,7 +126,7 @@ export default function Home() {
 
 {/* Tagline */}
 <p className="mt-8 text-xl md:text-2xl italic text-red-200">
-  Trusted Security Professionals for Weddings, VIP Events & Corporate Functions.
+  Trusted Security Professionals Serving Pune, Pimpri-Chinchwad, Hinjewadi, Wakad, Baner and Maharashtra.
 </p>
 
 {/* Buttons */}
@@ -670,30 +670,48 @@ export default function Home() {
       {/* Contact */}
 <section id="contact" className="scroll-mt-24 pt-10 pb-12 bg-black text-center text-white">
   <h2 className="text-5xl font-bold text-red-600 mb-8">
-    Contact Us
+    Contact R Bouncers Pune
   </h2>
 
   <p className="text-xl mb-3">
-    📞 Rohit: +91 8999131166
+    📞 <a href="tel:+918999131166" className="hover:text-red-500">
+      Rohit: +91 8999131166
+    </a>
   </p>
 
   <p className="text-xl mb-3">
-    📞 Ravi: +91 7020011441
+    📞 <a href="tel:+917020011441" className="hover:text-red-500">
+      Ravi: +91 7020011441
+    </a>
   </p>
 
-  <p className="text-gray-300 mb-8">
+  <p className="text-gray-300 mb-2">
     📍 Pune, Maharashtra
   </p>
-<p className="text-gray-400 mb-4">
-  Available 24/7 Across Maharashtra
-</p>
-  <a
-    href="https://wa.me/917020011441"
-    target="_blank"
-    className="bg-green-600 px-8 py-3 rounded-lg font-bold hover:bg-green-700 transition"
-  >
-    Contact on WhatsApp
-  </a>
+
+  <p className="text-gray-400 mb-8">
+    Available 24/7 Across Pune, Pimpri-Chinchwad, Hinjewadi, Wakad, Baner and Maharashtra
+  </p>
+
+  <div className="flex flex-col sm:flex-row justify-center gap-4">
+    
+    <a
+      href="https://wa.me/917020011441"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="bg-green-600 px-8 py-3 rounded-lg font-bold hover:bg-green-700 transition"
+    >
+      WhatsApp Now
+    </a>
+
+    <a
+      href="tel:+917020011441"
+      className="bg-red-600 px-8 py-3 rounded-lg font-bold hover:bg-red-700 transition"
+    >
+      Call Now
+    </a>
+
+  </div>
 </section>
 
 {/* Floating WhatsApp Button */}
